@@ -1,49 +1,38 @@
-# Project Overview
+# Project Title
 
-## Project Goals
-The objective of this project is to participate effectively in the machine learning competition, utilizing advanced techniques to develop a robust predictive model.
+# Competition Overview
 
-## Competition Overview
-This competition involves applying machine learning algorithms to forecast outcomes based on a provided dataset. Participants will be evaluated on the accuracy and effectiveness of their models.
+The Brier Score is a measure for quantifying the accuracy of probabilistic predictions. It is defined as the mean squared difference between predicted probabilities and the actual outcomes, helping teams gauge the performance of their models in competitions like those on Kaggle.
 
-## Brier Score Metric
-The Brier Score is a metric for assessing the accuracy of probabilistic predictions. It is calculated as the mean squared difference between predicted probabilities and the actual outcomes, making it a critical evaluation measure for our model's performance.
+# 4-Week Learning Plan
+1. **Week 1:** Introduction to Machine Learning
+2. **Week 2:** Data Preprocessing and Exploration
+3. **Week 3:** Model Development and Evaluation
+4. **Week 4:** Finalizing Models and Preparing Submissions
 
-## Learning Objectives
-1. Understand the fundamentals of machine learning algorithms.
-2. Gain expertise in data preprocessing and feature engineering.
-3. Develop skills in validating and fine-tuning models.
-4. Learn how to effectively evaluate model performance using metrics such as Brier Score.
+# Updated Hybrid Folder Structure
+```
+/ 
+├── src/               # Source code for the project
+├── data/              # Datasets
+├── notebooks/         # Jupyter notebooks
+├── models/            # Trained models
+├── submissions/       # Submission files
+└── scripts/           # Utility scripts
+```
 
-## Folder Structure
-- `data/` - Contains all datasets.
-- `src/` - Source code for the project including model training scripts.
-- `notebooks/` - Jupyter notebooks for exploratory data analysis and visualizations.
-- `models/` - Trained models and model evaluation scripts.
-- `reports/` - Documentation and reports generated throughout the project.
+# Getting Started
+To get started with this project, clone the repository and install the necessary dependencies. Refer to the `requirements.txt` file for a full list of packages needed.
 
-## Getting Started Instructions
-1. **Clone the repository:** 
-   ```bash
-   git clone https://github.com/SBK2021/sk-march-ml-mania-2026.git
-   ```
-2. **Navigate to the project directory:** 
-   ```bash
-   cd sk-march-ml-mania-2026
-   ```
-3. **Install dependencies:** 
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. **Run the initial data processing scripts.**
+# Key Concepts
+- **Supervised Learning**: Learning with labeled data.
+- **Model Evaluation**: Techniques to assess model performance.
+- **Feature Engineering**: Creating input features for the model.
 
-## Week-by-Week Learning Plan
-- **Week 1:** Introduction to Machine Learning; Basic concepts and tools.
-- **Week 2:** Data preprocessing techniques and methods.
-- **Week 3:** Feature engineering and analysis.
-- **Week 4:** Model selection and implementation strategies.
-- **Week 5:** Hyperparameter tuning and optimization.
-- **Week 6:** Model evaluation focusing on Brier Score and other metrics.
-- **Week 7:** Presenting findings and preparing for competition submission.
-
-**Note:** Regular check-ins and discussions will be scheduled to review progress and adjust learning objectives as needed.
+# Progress Tracking Table
+| Week  | Learning Task           | Completed |
+|-------|------------------------|-----------|
+| Week 1| Intro to Machine Learning| Yes       |
+| Week 2| Data Preprocessing      | No        |
+| Week 3| Model Development       | No        |
+| Week 4| Final Submission Prep   | No        |
